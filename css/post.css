@@ -1,0 +1,109 @@
+.content-area {
+	margin: 45px auto;
+}
+article.hentry {
+	margin-bottom: 65px;
+}
+.article-header {
+	position: relative;
+	margin-bottom: 20px;
+}
+.article-header .post-categories {
+	list-style:none;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom:23px;
+	left:0;
+	z-index: 2;
+}
+.article-header .post-categories li {
+	background: #58b600;
+}
+.article-header .post-categories a {
+	color:#fff;
+	padding: 11px 18px;
+	font-size: 18px;
+	font-weight: 700;
+	display: inline-block;
+	text-decoration: none;
+	line-height: 100%;
+}
+.article-header .post-categories a:hover {
+	text-decoration: none;
+}
+
+.article-title h2 {
+	margin-top: 0
+;	margin-bottom: 20px;
+}
+.article-title h2 a {
+	font-size: 18px;
+	line-height: 140%;
+	color:#000;
+	display: inline-block;
+	min-height: 85px;
+	/*display: -webkit-box;*/
+    /*-webkit-line-clamp: 1;*/
+    /*-webkit-box-orient: vertical;  */
+    /*-moz-line-clamp: 1;*/
+}
+	.article-title h2 a:hover {
+		color:#58b600;
+		text-decoration: none;
+	}
+.article-title .article-meta {
+	color:#b0b0b0;
+	font-size: 14px;
+}
+article.sticky {
+	margin-bottom: 30px;
+}
+.sticky .article-header {
+	position: relative;
+}
+.sticky .article-header:after {
+	content:" ";
+	background: rgba(0,0,0,0.2);
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.sticky .article-header img {
+	max-width: 100%;
+	height: auto;
+}
+.sticky .article-title {
+	min-height: auto;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);	
+	width: 70%;
+	text-align: center;
+	z-index: 2;
+}
+
+.sticky .article-title a {
+	font-size:48px;
+	color:#fff;
+	font-weight: 700;
+}
+
+
+.content-area p {
+	font-size: 18px;
+	line-height: 140%;
+}
+.content-area h1 {
+	font-size: 36px;
+}
+.category-nature .post-categories li {
+	background: blue;
+}
+.category-trips .post-categories li {
+	background: red;
+}

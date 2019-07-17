@@ -1,0 +1,12 @@
+.comment-form {
+
+}
+.comment-form label {
+	display: block;
+	margin-bottom: 5px;
+}
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+	width: 100%;
+}

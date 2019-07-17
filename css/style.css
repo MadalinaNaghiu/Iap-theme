@@ -1,0 +1,22 @@
+/*
+Theme Name: IAP Theme
+Theme URI: https://google.ro
+Author: Rosca Bogdan
+Author URI: https://google.ro
+Description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo id beatae sit inventore rem officiis labore nostrum at aliquid eos.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: iaptheme
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+@import url('css/header.css');
+body {
+	font-family: PT Serif, serif;
+}
+@import url('css/tools.css');
+@import url('css/header.css');
+@import url('css/hero.css');
+@import url('css/post.css');
+@import url('css/footer.css');
