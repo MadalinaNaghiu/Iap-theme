@@ -12,9 +12,7 @@
 		<div class="col-sm-3">
 			<div class="site-logo">
 				<!-- <a href="url_home">IAP Site</a> -->
-				<a href="<?php echo get_bloginfo( 'url' ); ?>" id="">
-					<?php echo get_bloginfo( 'name' ); ?>
-				</a>
+				<a href="<?php echo get_bloginfo( 'url' ); ?>" id=""><?php echo get_bloginfo( 'name' ); ?></a>
 			</div>
 		</div>
 		<!-- Meniuri -->
